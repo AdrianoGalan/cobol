@@ -33,7 +33,7 @@
            03 FILLER PIC X(07) VALUE "SMP006".
            03 FILLER PIC X(07) VALUE "SMPCMED".
            03 FILLER PIC X(07) VALUE "CONSMED".
-           03 FILLER PIC X(07) VALUE "SMP009".
+           03 FILLER PIC X(07) VALUE "SMPMTXT".
 
       *
        01 TAB-PROGR   REDEFINES TAB-PROGR-R.
@@ -86,7 +86,7 @@
            05  LINE 13  COLUMN 01 
                VALUE  "                          9 - GERAR RELA".
            05  LINE 13  COLUMN 41 
-               VALUE  "TORIO DO CADCEP".
+               VALUE  "TORIO DO CADMED".
            05  LINE 14  COLUMN 01 
                VALUE  "                         10 - RELATORIO ".
            05  LINE 14  COLUMN 41 
