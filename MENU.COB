@@ -87,10 +87,6 @@
                VALUE  "                          9 - GERAR RELA".
            05  LINE 13  COLUMN 41 
                VALUE  "TORIO DO CADMED".
-           05  LINE 14  COLUMN 01 
-               VALUE  "                         10 - RELATORIO ".
-           05  LINE 14  COLUMN 41 
-               VALUE  "DE MEDICO".
            05  LINE 20  COLUMN 01 
                VALUE  "                             OPCAO :".
            05  LINE 20  COLUMN 41 
@@ -113,7 +109,7 @@
            ACCEPT T-OPCAO.
            IF W-OPCAO = 00
                       GO TO Rfim1.
-           IF W-OPCAO > 10 
+           IF W-OPCAO > 9 
                  MOVE "*** FUNCAO NAO DISPONIVEL *** " TO MENS
                  PERFORM RMensa THRU RMensa-FIM
                  GO TO NIVEL1.
