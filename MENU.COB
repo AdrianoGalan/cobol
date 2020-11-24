@@ -32,7 +32,7 @@
            03 FILLER PIC X(07) VALUE "SMP005".
            03 FILLER PIC X(07) VALUE "SMP006".
            03 FILLER PIC X(07) VALUE "SMPCMED".
-           03 FILLER PIC X(07) VALUE "CONSMED".
+           03 FILLER PIC X(07) VALUE "SMPCCOM".
            03 FILLER PIC X(07) VALUE "SMPMTXT".
 
       *
@@ -50,7 +50,7 @@
            05  LINE 02  COLUMN 01 
                VALUE  "                             SISTEMA DE".
            05  LINE 02  COLUMN 41 
-               VALUE  "CONSULTAS".
+               VALUE  "CLINICA".
            05  LINE 05  COLUMN 01 
                VALUE  "                          1 - CADASTRO D".
            05  LINE 05  COLUMN 41 
@@ -82,7 +82,7 @@
            05  LINE 12  COLUMN 01 
                VALUE  "                          8 - CONSULTA D".
            05  LINE 12  COLUMN 41 
-               VALUE  "E MEDICO".
+               VALUE  "E CONVENIO".
            05  LINE 13  COLUMN 01 
                VALUE  "                          9 - GERAR RELA".
            05  LINE 13  COLUMN 41 
