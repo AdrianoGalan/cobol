@@ -31,7 +31,7 @@
            03 FILLER PIC X(07) VALUE "SMP004".
            03 FILLER PIC X(07) VALUE "SMP005".
            03 FILLER PIC X(07) VALUE "SMP006".
-           03 FILLER PIC X(07) VALUE "SMP040A".
+           03 FILLER PIC X(07) VALUE "SMPCMED".
            03 FILLER PIC X(07) VALUE "CONSMED".
            03 FILLER PIC X(07) VALUE "SMP009".
 
@@ -78,7 +78,7 @@
            05  LINE 11  COLUMN 01 
                VALUE  "                          7 - CONSULTA D".
            05  LINE 11  COLUMN 41 
-               VALUE  "E CEP".
+               VALUE  "E MEDICO".
            05  LINE 12  COLUMN 01 
                VALUE  "                          8 - CONSULTA D".
            05  LINE 12  COLUMN 41 
